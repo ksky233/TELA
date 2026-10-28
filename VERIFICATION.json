@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-28",
+  "scope": "Source packaging verification; no new full research training runs.",
+  "environment": {
+    "python": "3.12.9",
+    "os": "Windows",
+    "packages": {
+      "torch": "2.8.0+cu129",
+      "numpy": "2.1.2",
+      "pandas": "3.0.3",
+      "matplotlib": "3.10.9"
+    }
+  },
+  "unit_tests": {
+    "run": 19,
+    "failures": 0,
+    "errors": 0
+  },
+  "synthetic_cpu_training_and_reload_metrics_identical": true,
+  "three_sites_prepared_data_schema_and_sha256_match": true,
+  "model_layers_data_provider_unchanged": [
+    "models/TELA.py",
+    "models/__init__.py",
+    "layers/FutureQuery.py",
+    "layers/PatchEmbedding.py",
+    "layers/PredictionHead.py",
+    "layers/RevIN.py",
+    "layers/TELAAttention.py",
+    "layers/TELATokenizer.py",
+    "layers/__init__.py",
+    "data_provider/data_factory.py",
+    "data_provider/data_loader.py",
+    "data_provider/__init__.py"
+  ],
+  "conference_protocol_matches_historical_run": true,
+  "historical_checkpoint_forward_max_abs_difference": 0.0,
+  "site1_full_test_checked_metrics_max_abs_difference": 0.0,
+  "chronological_prediction_export_matches_reference": true,
+  "mechanism_scripts_execute": true,
+  "private_path_and_registration_content_scan": true
+}

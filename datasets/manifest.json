@@ -1,0 +1,38 @@
+{
+  "source_doi": "10.1038/s41597-022-01696-6",
+  "description": "Fingerprints of the prepared wide-table CSV inputs used by the conference experiments; datasets are distributed separately by their original provider.",
+  "time_column": "date",
+  "target": "power",
+  "frequency": "15min",
+  "rows": 70176,
+  "start": "2019-01-01 00:00:00",
+  "end": "2020-12-31 23:45:00",
+  "common_columns": [
+    "date", "wind_speed_10m", "wind_dir_10m", "wind_speed_30m", "wind_dir_30m",
+    "wind_speed_50m", "wind_dir_50m", "wind_speed_hub", "wind_dir_hub",
+    "temperature", "pressure"
+  ],
+  "sites": {
+    "site1": {
+      "filename": "grid_wind_site1_99MW.csv",
+      "capacity_mw": 99,
+      "trailing_columns": ["humidity", "power"],
+      "encoded_variables": 16,
+      "sha256": "49fb80acbad056d5fe0d89e01e771be6396b68397b02e55e5a820179dca39485"
+    },
+    "site2": {
+      "filename": "grid_wind_site2_200MW.csv",
+      "capacity_mw": 200,
+      "trailing_columns": ["power"],
+      "encoded_variables": 15,
+      "sha256": "51e68dc4933368135f0e821e0c67e27b6484b8a3f6a99242d306429d365b417d"
+    },
+    "site4": {
+      "filename": "grid_wind_site4_66MW.csv",
+      "capacity_mw": 66,
+      "trailing_columns": ["humidity", "power"],
+      "encoded_variables": 16,
+      "sha256": "257d2013371d23cda8b3c6f7db9b7791e4e6e29896d5dfb9a9be8050e125fe8f"
+    }
+  }
+}

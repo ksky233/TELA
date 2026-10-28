@@ -1,0 +1,238 @@
+{
+  "release": "TELA-ICCBD-AI-2026",
+  "date": "2026-10-28",
+  "hash_algorithm": "SHA-256",
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 284,
+      "sha256": "0e43bfef35c5aa564435f3f9544619907f8249ed0d2d6c10b215da45f2edf506"
+    },
+    {
+      "path": "CITATION.bib",
+      "bytes": 723,
+      "sha256": "a0c83f31a91c957551b353e15f741c2d64a611863c8f9a4951f99b12fdfefe95"
+    },
+    {
+      "path": "configs/conference.json",
+      "bytes": 897,
+      "sha256": "a568a7f86f40e21c940a50ec81c884eda862f1a3482eb9ece9969dcc1b824a1a"
+    },
+    {
+      "path": "data_provider/__init__.py",
+      "bytes": 69,
+      "sha256": "a233e62687cc449b2130999729f5adb08173bd0c0104f1edd35a485a0b9dc1f6"
+    },
+    {
+      "path": "data_provider/data_factory.py",
+      "bytes": 945,
+      "sha256": "89fe1d228c560491ac312d251d1107eba5aed6ffdeb82bbdd1e909dc90edb8ef"
+    },
+    {
+      "path": "data_provider/data_loader.py",
+      "bytes": 7056,
+      "sha256": "8c76e5b4b0cf3a395a0b397ac411d563facee571c5bc2fa23bc6d5f80155b8be"
+    },
+    {
+      "path": "datasets/manifest.json",
+      "bytes": 1357,
+      "sha256": "d0888a316528115dcf7914e611a8f844f671a942c3237137a9fc17e847371bda"
+    },
+    {
+      "path": "datasets/README.md",
+      "bytes": 2741,
+      "sha256": "ea7d6f2b55b510da2d247a239293bdfd0f17a392e470feca8f832e76300dc835"
+    },
+    {
+      "path": "exp/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "exp/exp_basic.py",
+      "bytes": 641,
+      "sha256": "3189af38f8748730055b2907934f5a727e7d0d6eac132c80b09cde0a57bb9753"
+    },
+    {
+      "path": "exp/exp_forecast.py",
+      "bytes": 20404,
+      "sha256": "33602abbcfdb73ba19f56fde896ffb48a1fe1f22be3923b0f1d370d70b5c91e2"
+    },
+    {
+      "path": "layers/__init__.py",
+      "bytes": 678,
+      "sha256": "bd78f72677f4123dfb8356b6d4fa46c0a2064316578d09b563d819b3022c24cb"
+    },
+    {
+      "path": "layers/FutureQuery.py",
+      "bytes": 902,
+      "sha256": "e881d8f312f96bec5c0116b5339bf01fcce341a7eec27cdc4f6d6b46da8899f6"
+    },
+    {
+      "path": "layers/PatchEmbedding.py",
+      "bytes": 1948,
+      "sha256": "27a6a365944e7924e0ab8172b66dc6f41ee14496d079a8a3ecc974527d435833"
+    },
+    {
+      "path": "layers/PredictionHead.py",
+      "bytes": 3562,
+      "sha256": "5fca2fa3d194e387570c1e514d26a616839abd20f2587d6d216408b8c6e34654"
+    },
+    {
+      "path": "layers/RevIN.py",
+      "bytes": 1897,
+      "sha256": "a8c68fdc519c8d6b0a6d61bbef346daf280cb999dc6c7c7d6e458cfcf9294dc1"
+    },
+    {
+      "path": "layers/TELAAttention.py",
+      "bytes": 7552,
+      "sha256": "ff06836486c05f8e46590ca7e00b24ad640afa86dd0d5892697fe37dd10ea89c"
+    },
+    {
+      "path": "layers/TELATokenizer.py",
+      "bytes": 1444,
+      "sha256": "2241d2b70f09c3f4bfc89fc9191b04b099f6738d864df7e5b9572dcb98a229d9"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "sha256": "bbf29fe8ec30edb1ac432bfc700988829a3fa328e9e6ac3d629914cbfbb6f8d0"
+    },
+    {
+      "path": "models/__init__.py",
+      "bytes": 13,
+      "sha256": "75ad4f4c2943325f88064ad2beae890b59674be2bf0404b30afc5584dc4de4bb"
+    },
+    {
+      "path": "models/TELA.py",
+      "bytes": 6650,
+      "sha256": "35af1eb372c7db3847b3415c04787b338a6cb0ab72e1ce2b41771942e32b951e"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 931,
+      "sha256": "cb365ff91fb065b7ab2e5b753a8a5cc1fe36d411ea38dcced04d4c3b6118422e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5997,
+      "sha256": "d11c65813fd82887256a70734cb38a9f0110c482d2e0c166b21caf6ab362221a"
+    },
+    {
+      "path": "RELEASE.md",
+      "bytes": 2076,
+      "sha256": "4cf53b1098c941e56a47060e42be7775fbcc16ce79e84afe544294af0d14134b"
+    },
+    {
+      "path": "requirements-visualization.txt",
+      "bytes": 39,
+      "sha256": "223550663549450d781e296b7f4a5213174b371c942b76e505f052f9c3f3fadb"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 40,
+      "sha256": "a925d5d775b6c0c0ce7143106d7d4f95814fa64a28ff7e819da355a81485c443"
+    },
+    {
+      "path": "run.py",
+      "bytes": 9369,
+      "sha256": "e4566a53184f2a4a904366d8119c20be5a978172ec9da2e8481534f483b936f8"
+    },
+    {
+      "path": "scripts/analyze_attention.py",
+      "bytes": 10640,
+      "sha256": "1ef9b4da63de65e2f83e4a554c1ec67599c36f5ec3b3bc9abac042c8b363ee72"
+    },
+    {
+      "path": "scripts/export_predictions.py",
+      "bytes": 4603,
+      "sha256": "42159a1a2e5d19b44be89b5f70920da86b1da8184c037aa159ae221aa55229b8"
+    },
+    {
+      "path": "scripts/export_relation_bias.py",
+      "bytes": 8531,
+      "sha256": "f5dabfddd12e5f1c2afdb6c50af8caf0cf7bbcf753339a09dfb2a643f763d045"
+    },
+    {
+      "path": "scripts/plot_attention.py",
+      "bytes": 13079,
+      "sha256": "b53ae0efc1af37179f76dbcf847da7e5d3668f5f06660e7158c53714597b736a"
+    },
+    {
+      "path": "scripts/plot_attention_heatmaps.py",
+      "bytes": 14126,
+      "sha256": "6c6b7922927065406a7ee3e33a989d3da4b5b95289b2172ce89f376dbf3d119a"
+    },
+    {
+      "path": "scripts/plot_power_conditioned_attention.py",
+      "bytes": 18599,
+      "sha256": "b506892cb21f83b7a6cd5573637be57890e0b74ce82d450b499692cc01d8a3d2"
+    },
+    {
+      "path": "scripts/reproduce.py",
+      "bytes": 4483,
+      "sha256": "2b4b0a845055b17747ac565830d144faf6d9823d7ebf3550cdcb861caceb8584"
+    },
+    {
+      "path": "scripts/smoke_test.py",
+      "bytes": 2215,
+      "sha256": "b06fddbebeee4b4514dfe38447387569ad21182d6fe142769cb560dbec8f29f6"
+    },
+    {
+      "path": "scripts/verify_data.py",
+      "bytes": 2312,
+      "sha256": "fe2ca728b382a089060070b3c5385547fde3523702a26fffad1ba3f717d022bd"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/synthetic.py",
+      "bytes": 648,
+      "sha256": "494abec7f9efc05e28ca31e08637c918619cbac6ac1d45957cb0175a3c81b5f6"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 9242,
+      "sha256": "74911a32bf128b9171bef8215679f3680c3278de3242d5622c5a5bb67130cfde"
+    },
+    {
+      "path": "utils/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "utils/audit.py",
+      "bytes": 949,
+      "sha256": "84a6219630db3e873ffecd0c6aaa55169b492b037854dea545d71be9f3bda20e"
+    },
+    {
+      "path": "utils/checkpoints.py",
+      "bytes": 1028,
+      "sha256": "bf432f8531fda27393956278440b457f99cfe7b851e6b465b066ece63fab8d2a"
+    },
+    {
+      "path": "utils/metrics.py",
+      "bytes": 815,
+      "sha256": "92e4b3921c8276c758b31df0fcfb05339ea6be94bfa2ed95bad3a968242d3fc8"
+    },
+    {
+      "path": "utils/results.py",
+      "bytes": 736,
+      "sha256": "8861c7b5c573ef6525da90b9afdf24a3db0d5e28c08c60faacd9e7f3ab0885cf"
+    },
+    {
+      "path": "utils/tools.py",
+      "bytes": 1874,
+      "sha256": "7f4cc6eec2b3a5c7660150238f3156c83cce83876bf1444edb3077ebbc6bfc22"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 1279,
+      "sha256": "1b63312d8a2cd67befd14971846ce5bc08d49ec9a9e4e596e7034ce7a122185a"
+    }
+  ]
+}
